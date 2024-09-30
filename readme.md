@@ -31,6 +31,13 @@ This is the backend for the Task Management App. It provides CRUD (Create, Read,
 
 ## API Endpoints:
 
+### User Routes:
+
+| Method | Endpoint                         | Description                        |
+|--------|----------------------------------|------------------------------------|
+| **POST**    | `/user/login`                    | Login User                      |
+| **POST**     | `/user/signup`                    | Register User                  |
+
 ### Task Routes:
 
 | Method | Endpoint                         | Description                        |
